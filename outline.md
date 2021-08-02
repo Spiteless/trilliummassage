@@ -13,6 +13,7 @@
 ## Pages
 
 ### App
+
 - \<Seo />
 - \<Nav />
 - \<Drawer />
@@ -20,35 +21,41 @@
 - \<Footer />
 
 ### Main
+
 - \<HeroImage />
 - \<EmailListSignup />
 - \<ViewSessionsPublic />
-    - \<SessionSignup />
+  - \<SessionSignup />
 - \<Services /> -- Changes based on Auth (custom rate or company rate)
 - \<InfoVideoLinkBlurb />
 - \<InfoImageBlurb />
-- \<Pricing /> **Pricing/Services might merge
+- \<Pricing /> \*\*Pricing/Services might merge
 - \<UserReviewsSection />
 - \<ContactFormLandingPage /> -- prepopulates user info if Auth
 - \<InquireChairMassageForm />
 
 ### Dashboard
+
 - \<ViewSessions /> -- Pulls from profile affiliations
 
 ### Dashboard/companySlug
+
 - \<ViewSessionsCompanyPublic />
-    - \<SessionSignup />
+  - \<SessionSignup />
 
 ### Dashboard/companySlug/createEvent
+
 - \<SessionCreate />
 
 ### /users/[userId]
+
 - \<ViewProfile />
-    - \<SessionHistory />
-    - \<PaymentHistory /> -- if profile owner
-    - \<EditProfile /> -- if profile owner
+  - \<SessionHistory />
+  - \<PaymentHistory /> -- if profile owner
+  - \<EditProfile /> -- if profile owner
 
 ### /contact
+
 - \<ContactFormGeneral /> -- prepopulates user info if Auth
 
 ---
@@ -61,12 +68,12 @@
 - (10pts) Responsive Deisgn (will be handled by materialUI)
 - (15pts) Redux from 2+ reducers
 - (10pts) 5+ componenets use React Hooks (eg useState)
-    - useEffect \<Nav /> displays logged in state
-    - useState \<Profile /> uses form state
-    - useState \<EmailListSignup /> uses form state
-    - useState \<Drawer /> uses opened/closed state
-    - useState \<SessionSignup /> uses form state
-    - useEffect \<SessionSignup /> loads form data to edit
+  - useEffect \<Nav /> displays logged in state
+  - useState \<Profile /> uses form state
+  - useState \<EmailListSignup /> uses form state
+  - useState \<Drawer /> uses opened/closed state
+  - useState \<SessionSignup /> uses form state
+  - useEffect \<SessionSignup /> loads form data to edit
 - (10pts) Working Authentication
 - (10pts) Nodemailer or equivelent emailer
 - (10pts) Square integration
@@ -74,4 +81,4 @@
 - (15pts) Domain hosted on unique domain name (www.trilliummassage.la)
 - (10pts) Presentation (Might have missed this score)
 
-### 10 * 7 + 15 * 2 = 100 points
+### 10 _ 7 + 15 _ 2 = 100 points
