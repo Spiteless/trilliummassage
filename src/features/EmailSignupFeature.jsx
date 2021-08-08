@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function EmailListSignup() {
+export default function EmailSignupFeature() {
     return (
         <div>
-            <h1>EmailListSignup</h1>
+            <h1>EmailSignupFeature</h1>
         </div>
     )
 }
