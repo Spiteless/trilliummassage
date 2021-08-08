@@ -108,23 +108,16 @@ const useStyles = makeStyles(theme => ({
       color: 'inherit',
       
     },
-    // '& :hover': {
-    //   backgroundColor: "green",
-    //   border: '5px solid red',
-      // transition: 'color 0.15s ease, border 0.15s ease',
-    //   color: theme.palette.secondary.main,
-    //   // borderColor: theme.palette.secondary.main,
-    // },
-    // '& :focus': {
-    //   backgroundColor: "green",
-    //   color: theme.palette.secondary.main,
-    //   borderColor: theme.palette.secondary.main,
-    // },
-    // '& :active': {
-    //   backgroundColor: "green",
-    //   color: theme.palette.secondary.main,
-    //   borderColor: theme.palette.secondary.main,
-    // },
+    '& :hover': {
+      transition: 'color 0.15s ease, border 0.15s ease',
+      color: theme.palette.secondary.main,
+    },
+    '& :focus': {
+      color: theme.palette.secondary.main,
+    },
+    '& :active': {
+      color: theme.palette.secondary.main,
+    },
     '& h2': {
       margin: '0 0 1rem 0',
       fontSize: '1.5rem',
